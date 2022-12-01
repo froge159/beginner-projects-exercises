@@ -2,7 +2,8 @@ import random
 lower_letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 upper_letters = [i.upper() for i in lower_letters]
 symbols = ["'", "#","$","%","&","'","(",")","*","+",",","-",".","/",":",";","<","=",">","?","@","[","]","^","_","`","{","|","}","~","]"]
-allchars = lower_letters.copy() + upper_letters.copy() + symbols.copy()
+numbers = ['1','2','3','4','5','6','7','8','9','0']
+allchars = lower_letters.copy() + upper_letters.copy() + symbols.copy() + numbers.copy()
 
 def password():
     num_of_chars = int(input('Number of characters: '))
