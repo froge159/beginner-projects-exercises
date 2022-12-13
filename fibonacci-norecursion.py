@@ -6,5 +6,5 @@ def fib(range):
     print(num)
 
 
-fib(10)
+
 
